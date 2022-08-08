@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Latian</title>
+  <style>
+  body {
+    text-align: center;
+    width: vw100;
+    height: vh100;
+    background-color: #eee;
+  }
+  .kotak {
+    width: 30px;
+    height: 30px;
+    margin: 10px auto;
+    border: solid 1px black;
+  }
+  .merah {
+    background-color: red;
+  }
+  .hijau {
+    background-color: green;
+  }
+  .biru {
+    background-color: blue;
+  }
+  .selek {
+    width: 15px;
+    height: 15px;
+    border: solid 1px black;
+    margin: 10px auto;
+    background-color: white;
+  }
+  h4  {
+    display: inline-block;
+  }
+  h1 {
+    text-shadow: 1px 1px 2px black;
+  }
+</style>
+</head>
+<body>
+  <div class="kotak merah"></div>
+  <input type="range" name="merah" min="1" max="255">
+  <h4 class="h41"></h4>
+
+  <div class="kotak hijau"></div>
+  <input type="range" name="hijau" min="1" max="255">
+  <h4 class="h42"></h4>
+
+  <div class="kotak biru"></div>
+  <input type="range" name="biru" min="1" max="255">
+  <h4 class="h43"></h4>
+
+  <h3>Pilih Warna</h3>
+  <div class="selek"></div>
+  <button>OK</button>
+
+  <h1>Hello Cuy!</h1>
+
+  <script src="script.js"></script>
+</body>
+</html>
